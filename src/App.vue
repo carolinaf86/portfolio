@@ -8,6 +8,7 @@
 import HelloComponent from './components/HelloComponent.vue'
 
 export default {
+  name: 'App',
   components: {
     HelloComponent
   }
