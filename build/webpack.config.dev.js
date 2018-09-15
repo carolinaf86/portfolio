@@ -32,13 +32,29 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/,
-        use: 'babel-loader'
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'sass-loader'
+          }
+        ]
       },
       {
-        test: /\.(js|vue)$/,
-        use: 'eslint-loader',
-        enforce: 'pre'
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/'
+          }
+        }]
+      },
+      {
+        test: /\.js$/,
+        use: 'babel-loader'
       }
     ]
   },
