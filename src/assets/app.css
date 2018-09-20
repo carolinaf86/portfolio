@@ -1,3 +1,15 @@
+/* Transitions */
+.black-fade-enter-active, .black-fade-leave-active {
+  transition: opacity 2s;
+}
+.black-fade-enter, .black-fade-leave-to {
+  opacity: 0.5;
+}
+.black-fade-enter-to, .black-fade-leave {
+  opacity: 1;
+}
+
+
 /*!
  * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2018 Start Bootstrap
@@ -150,15 +162,17 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #64a19d !important;
+  border-color: #64a19d !important;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #4f837f !important;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #4f837f !important;
+  border-color: #4f837f !important;
   color: white;
 }
 
@@ -279,7 +293,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #64a19d !important;
 }
 
 a:focus, a:hover {

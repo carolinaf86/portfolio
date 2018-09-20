@@ -1,13 +1,12 @@
 <template>
 
-  <body id="page-top">
+  <body>
 
     <!-- Navigation -->
     <navbar-component/>
 
     <!-- Router outlet -->
     <router-view/>
-
 
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
