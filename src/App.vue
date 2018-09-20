@@ -1,13 +1,16 @@
 <template>
 
-  <body id="page-top">
+  <body>
 
     <!-- Navigation -->
     <navbar-component/>
 
     <!-- Router outlet -->
-    <router-view/>
-
+    <div class="container-bg-black">
+      <transition name="fade" mode="out-in" :duration="1000">
+        <router-view/>
+      </transition>
+    </div>
 
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
