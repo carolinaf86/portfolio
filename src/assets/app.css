@@ -1,12 +1,17 @@
 /* Transitions */
-.black-fade-enter-active, .black-fade-leave-active {
-  transition: opacity 2s;
+.fade-enter-active {
+  transition: opacity ease-in;
 }
-.black-fade-enter, .black-fade-leave-to {
+.fade-leave-active {
+  transition: opacity ease-out;
+}
+
+.fade-enter, .fade-leave-to {
   opacity: 0.5;
 }
-.black-fade-enter-to, .black-fade-leave {
-  opacity: 1;
+
+.container-bg-black {
+  background-color: #161616;
 }
 
 
@@ -293,7 +298,7 @@ body {
 }
 
 a {
-  color: #64a19d !important;
+  color: #64a19d;
 }
 
 a:focus, a:hover {
