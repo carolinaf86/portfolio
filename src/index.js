@@ -9,6 +9,7 @@ import HomeComponent from './pages/HomeComponent.vue'
 import AboutComponent from './pages/AboutComponent.vue'
 import ProjectsComponent from './pages/ProjectsComponent.vue'
 import ContactComponent from './pages/ContactComponent.vue'
+import './assets/scss/creative.scss'
 
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
