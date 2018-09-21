@@ -3,7 +3,7 @@
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url('../../../static/img/header.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../../../static/img/header.jpg');
     background-position: center center;
     @include background-cover;
     hr {
@@ -13,11 +13,11 @@
     h1 {
       font-size: 2rem;
     }
-    p {
-      font-weight: 300;
+    h4 {
+      font-weight: 600;
     }
     @media (min-width: 768px) {
-      p {
+      h4 {
         font-size: 1.15rem;
       }
     }
