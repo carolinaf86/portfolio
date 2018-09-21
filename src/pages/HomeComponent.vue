@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="masthead text-center text-white d-flex">
+    <header id="home" class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">

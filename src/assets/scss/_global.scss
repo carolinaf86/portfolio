@@ -5,75 +5,76 @@ html {
   height: 100%;
 }
 
-body {
+#portfolio {
+
   @include serif-font;
-}
 
-hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: $primary;
-}
-
-hr.light {
-  border-color: $white;
-}
-
-a {
-  color: $primary;
-  @include transition-all;
-  &:hover {
-    color: darken($primary, .1);
+  hr {
+    max-width: 50px;
+    border-width: 3px !important;
+    border-color: $primary !important;
   }
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @include sans-serif-font;
-}
+  hr.light {
+    border-color: $white;
+  }
 
-.bg-primary {
-  background-color: $primary !important;
-}
+  a {
+    color: $primary;
+    @include transition-all;
+    &:hover {
+      color: darken($primary, .1);
+    }
+  }
 
-.bg-dark {
-  background-color: $gray-900 !important;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include sans-serif-font;
+  }
 
-.text-faded {
-  color: fade-out($white, .3);
-}
+  .bg-primary {
+    background-color: $primary !important;
+  }
 
-section {
-  padding: 8rem 0;
-}
+  .bg-dark {
+    background-color: $gray-900 !important;
+  }
 
-.section-heading {
-  margin-top: 0;
-}
+  .text-faded {
+    color: fade-out($white, .3);
+  }
 
-::-moz-selection {
-  color: $white;
-  background: $gray-900;
-  text-shadow: none;
-}
+  section {
+    padding: 8rem 0;
+  }
 
-::selection {
-  color: $white;
-  background: $gray-900;
-  text-shadow: none;
-}
+  .section-heading {
+    margin-top: 0;
+  }
 
-img::selection {
-  color: $white;
-  background: transparent;
-}
+  ::-moz-selection {
+    color: $white;
+    background: $gray-900;
+    text-shadow: none;
+  }
 
-img::-moz-selection {
-  color: $white;
-  background: transparent;
+  ::selection {
+    color: $white;
+    background: $gray-900;
+    text-shadow: none;
+  }
+
+  img::selection {
+    color: $white;
+    background: transparent;
+  }
+
+  img::-moz-selection {
+    color: $white;
+    background: transparent;
+  }
 }

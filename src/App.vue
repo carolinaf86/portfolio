@@ -1,9 +1,7 @@
 <template>
-
-  <body>
-
+  <div id="portfolio" @:scroll="onScroll">
     <!-- Navigation -->
-    <navbar-component/>
+    <navbar-component ref="mainNav" :shrink-nav="shrinkNav" />
 
     <!-- Router outlet -->
     <div class="container-bg-black">
@@ -13,9 +11,7 @@
     </div>
 
     <footer-component/>
-
-  </body>
-
+  </div>
 </template>
 
 <script>
@@ -26,6 +22,27 @@ export default {
   components: {
     NavbarComponent,
     FooterComponent
+  },
+  data: function () {
+    return {
+      shrinkNav: false
+    }
+  },
+  mounted: function () {
+    this.navbarCollapse()
+    window.addEventListener('scroll', this.onScroll)
+  },
+  destroyed: function () {
+    window.removeEventListener('scroll', this.onScroll)
+  },
+  methods: {
+    onScroll: function () {
+      setTimeout(this.navbarCollapse(), 500)
+    },
+    navbarCollapse: function () {
+      const offsetY = window.pageYOffset
+      this.shrinkNav = offsetY > 100
+    }
   }
 }
 </script>
