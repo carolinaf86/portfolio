@@ -1,5 +1,5 @@
 <template>
-  <section id="services">
+  <section id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">

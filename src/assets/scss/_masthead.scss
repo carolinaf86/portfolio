@@ -3,7 +3,7 @@
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../../../static/img/header.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../../static/img/header.jpg');
     background-position: center center;
     @include background-cover;
     hr {

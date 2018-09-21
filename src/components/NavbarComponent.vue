@@ -11,6 +11,9 @@
             <a class="nav-link" href="#about" v-scroll-to="'#about'">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#skills" v-scroll-to="'#skills'">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#projects" v-scroll-to="'#projects'">Projects</a>
           </li>
           <li class="nav-item">
