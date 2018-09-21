@@ -17,7 +17,7 @@
             <a class="nav-link" href="#projects" v-scroll-to="'#projects'">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" v-scroll-to="'#contact'">Contact</a>
+            <a class="nav-link" href="#contact" v-scroll-to="'#footer'">Contact</a>
           </li>
         </ul>
       </div>

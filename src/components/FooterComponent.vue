@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
@@ -10,11 +10,11 @@
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center">
-          <i class="fas fa-phone fa-3x mb-3 sr-contact-1"/>
+          <i class="fas fa-phone fa-3x mb-3" v-scroll-reveal.reset="{delay: 200}"/>
           <p>+34 610 642 683</p>
         </div>
         <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"/>
+          <i class="fas fa-envelope fa-3x mb-3" v-scroll-reveal.reset="{delay: 400}"/>
           <p>
             <a href="mailto:your-email@your-domain.com">caroline@bluerosedev.com</a>
           </p>
