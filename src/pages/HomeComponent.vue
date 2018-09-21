@@ -19,7 +19,7 @@
     <about-component/>
     <skills-component/>
     <projects-component/>
-    <contact-component/>
+    <cv-component/>
   </div>
 </template>
 
@@ -27,14 +27,14 @@
 
 import AboutComponent from '../components/AboutComponent.vue'
 import ProjectsComponent from '../components/ProjectsComponent.vue'
-import ContactComponent from '../components/ContactComponent.vue'
+import CvComponent from '../components/CvComponent.vue'
 import SkillsComponent from '../components/SkillsComponent.vue'
 
 export default {
   components: {
     AboutComponent,
     ProjectsComponent,
-    ContactComponent,
+    CvComponent,
     SkillsComponent
   }
 }
