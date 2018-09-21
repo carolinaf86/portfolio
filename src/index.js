@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './assets/app.css'
 import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
+import HomeComponent from './pages/HomeComponent.vue'
+import ProjectPageComponent from './pages/ProjectPageComponent.vue'
+
+/* Styles */
+import './assets/scss/creative.scss'
+import './assets/app.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import HomeComponent from './pages/HomeComponent.vue'
-import AboutComponent from './pages/AboutComponent.vue'
-import ProjectsComponent from './pages/ProjectsComponent.vue'
-import ContactComponent from './pages/ContactComponent.vue'
 
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
@@ -16,9 +17,7 @@ Vue.use(VueRouter)
 /* Routes */
 const routes = [
   { path: '/home', component: HomeComponent },
-  { path: '/about', component: AboutComponent },
-  { path: '/projects', component: ProjectsComponent },
-  { path: '/contact', component: ContactComponent },
+  { path: '/projects/:id', component: ProjectPageComponent },
   { path: '*', redirect: '/home' }
 ]
 
