@@ -8,7 +8,7 @@ import VueScrollTo from 'vue-scrollto'
 import VueScrollReveal from 'vue-scroll-reveal';
 
 /* Styles */
-import './assets/scss/creative.scss'
+import './assets/theme/creative.scss'
 import './assets/app.scss'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
