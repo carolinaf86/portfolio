@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 id="about-heading" class="section-heading text-white">"Never stop learning"</h2>
+          <h2 id="about-heading" class="section-heading text-white" v-scroll-reveal.reset="scrollRevealOpts">"Never stop learning"</h2>
           <hr class="light my-4">
           <p class="text-faded mb-4">
             The thing I love most about developing is that I'm constantly learning new things.
@@ -21,7 +21,21 @@
   #about-heading {
     font-style: italic;
   }
+
   #source-code-link {
     color: #ffffff !important;
   }
 </style>
+<script>
+export default {
+  data: () => {
+    return {
+      scrollRevealOpts: {
+        delay: 200,
+        distance: '300px',
+        origin: 'left'
+      }
+    }
+  }
+}
+</script>
