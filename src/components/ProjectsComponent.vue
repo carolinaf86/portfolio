@@ -3,94 +3,94 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/1.jpg">
+          <router-link class="portfolio-box" to="/projects/1">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #1
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Importing Fruit
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/2.jpg">
+          <router-link class="portfolio-box" to="/projects/2">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #2
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Time Management
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/3.jpg">
+          <router-link class="portfolio-box" to="/projects/3">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #3
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Online Magazines
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/4.jpg">
+          <router-link class="portfolio-box" to="/projects/4">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/4.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #4
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Recruiting Event Staff
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/5.jpg">
+          <router-link class="portfolio-box" to="/projects/5">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/5.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #5
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Consultancy Agency
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="../../static/img/portfolio/fullsize/6.jpg">
+          <router-link class="portfolio-box" to="/projects/6">
             <img class="img-fluid" src="../../static/img/portfolio/thumbnails/6.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
-                  Category
+                  Project #6
                 </div>
                 <div class="project-name">
-                  Project Name
+                  Portfolio
                 </div>
               </div>
             </div>
-          </a>
+          </router-link>
         </div>
       </div>
     </div>

@@ -5,9 +5,10 @@ import VueRouter from 'vue-router'
 import HomeComponent from './pages/HomeComponent.vue'
 import ProjectPageComponent from './pages/ProjectPageComponent.vue'
 import VueScrollTo from 'vue-scrollto'
+import VueScrollReveal from 'vue-scroll-reveal';
 
 /* Styles */
-import './assets/scss/creative.scss'
+import './assets/theme/creative.scss'
 import './assets/app.scss'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -26,6 +27,13 @@ Vue.use(VueScrollTo, {
   onCancel: false,
   x: false,
   y: true
+})
+Vue.use(VueScrollReveal, {
+  class: 'v-scroll-reveal',
+  duration: 800,
+  scale: 1,
+  distance: '10px',
+  mobile: false
 })
 
 /* Routes */
