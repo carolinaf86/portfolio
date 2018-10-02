@@ -83,7 +83,9 @@ export default {
       return this.content[this.$route.params.id]
     },
     bgImgPath: function () {
-      return `../../static/img/portfolio/fullsize/${this.$route.params.id}.jpg`
+      return +this.$route.params.id === 6
+        ? '../../static/img/header.jpg'
+        : `../../static/img/portfolio/${this.$route.params.id}.jpg`
     }
   }
 }
