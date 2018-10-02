@@ -24,7 +24,7 @@
             </li>
           </template>
           <li class="nav-item">
-            <router-link class="nav-link" to="'/cv'">CV</router-link>
+            <router-link class="nav-link" to="/cv">CV</router-link>
           </li>
         </ul>
       </div>
