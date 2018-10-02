@@ -4,6 +4,7 @@ import BootstrapVue from 'bootstrap-vue'
 import VueRouter from 'vue-router'
 import HomeComponent from './pages/HomeComponent.vue'
 import ProjectPageComponent from './pages/ProjectPageComponent.vue'
+import CVPageComponent from './pages/CVPageComponent.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueScrollReveal from 'vue-scroll-reveal';
 
@@ -19,7 +20,7 @@ Vue.use(VueScrollTo, {
   container: 'body',
   duration: 500,
   easing: 'ease',
-  offset: 0,
+  offset: -80,
   force: true,
   cancelable: true,
   onStart: false,
@@ -40,6 +41,7 @@ Vue.use(VueScrollReveal, {
 const routes = [
   { path: '/home', component: HomeComponent },
   { path: '/projects/:id', component: ProjectPageComponent },
+  { path: '/cv', component: CVPageComponent },
   { path: '*', redirect: '/home' }
 ]
 
