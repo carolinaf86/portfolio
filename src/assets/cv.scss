@@ -1,6 +1,11 @@
 @import '/theme/_variables';
+@import '/theme/_mixins';
 
 #cv-section {
+
+  p {
+    @include sans-serif-font;
+  }
 
   .cv-row {
     margin-top: 20px;
