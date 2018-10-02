@@ -4,7 +4,7 @@
     <navbar-component ref="mainNav" :shrink-nav="shrinkNav" />
 
     <!-- Router outlet -->
-    <div class="container-bg-black">
+    <div>
       <transition name="fade" mode="out-in" :duration="1000">
         <router-view/>
       </transition>
