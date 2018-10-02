@@ -4,7 +4,7 @@
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/1">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/1.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/portfolio/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -19,7 +19,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/2">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/2.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/portfolio/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -34,7 +34,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/3">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/3.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/portfolio/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -49,7 +49,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/4">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/4.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/portfolio/4.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -64,7 +64,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/5">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/5.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/portfolio/5.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -79,7 +79,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <router-link class="portfolio-box" to="/projects/6">
-            <img class="img-fluid" src="../../static/img/portfolio/thumbnails/6.jpg" alt="">
+            <img class="img-fluid" src="../../static/img/header.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
