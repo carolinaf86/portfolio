@@ -23,7 +23,27 @@
               <a class="nav-link" href="#contact" v-scroll-to="'#footer'">Contact</a>
             </li>
           </template>
-          <li class="nav-item">
+          <template v-if="$route.path === '/cv'">
+            <li class="nav-item">
+              <a class="nav-link" href="#name-row" v-scroll-to="'#name-row'">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-row" v-scroll-to="'#skills-row'">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience-row" v-scroll-to="'#experience-row'">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education-row" v-scroll-to="'#education-row'">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#languages-row" v-scroll-to="'#languages-row'">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#references-row" v-scroll-to="'#references-row'">References</a>
+            </li>
+          </template>
+          <li class="nav-item" v-if="$route.path !== '/cv'">
             <router-link class="nav-link" to="/cv">CV</router-link>
           </li>
         </ul>

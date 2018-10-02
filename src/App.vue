@@ -40,8 +40,13 @@ export default {
       setTimeout(this.navbarCollapse(), 500)
     },
     navbarCollapse: function () {
-      const offsetY = window.pageYOffset
-      this.shrinkNav = offsetY > 100
+      // Only hide navbar on homepage
+      if (this.$route.path === '/home') {
+        const offsetY = window.pageYOffset
+        this.shrinkNav = offsetY > 100
+      } else {
+        this.shrinkNav = true
+      }
     }
   }
 }

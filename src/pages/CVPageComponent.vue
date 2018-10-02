@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-sm-12">
 
-        <div class="row">
+        <div class="row" id="name-row">
           <div class="col-12">
             <h2 style="text-align: center;">Caroline Fuller</h2>
           </div>
