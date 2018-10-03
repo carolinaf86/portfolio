@@ -3,7 +3,7 @@
     <header id="project-detail-header"
             :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(${bgImgPath})`}"
             class="masthead project-header text-center text-white d-flex">
-      <div class="container" style="margin-top: 150px;">
+      <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">

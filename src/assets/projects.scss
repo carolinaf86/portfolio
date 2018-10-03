@@ -1,6 +1,13 @@
 #project-detail-header {
   height: 400px !important;
   min-height: 0 !important;
+
+  @media (min-width: 992px) {
+    div.container {
+      padding-top: 150px;
+    }
+  }
+
 }
 
 #project-detail {
