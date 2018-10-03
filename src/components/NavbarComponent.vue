@@ -3,9 +3,7 @@
     <div class="container">
 
       <b-navbar-brand v-if="$route.path === '/home'" href="#" v-scroll-to="'#home'">Home</b-navbar-brand>
-      <b-navbar-brand v-else >
-        <router-link to="/home">Home</router-link>
-      </b-navbar-brand>
+      <b-navbar-brand v-else to="/home">Home</b-navbar-brand>
 
       <b-navbar-toggle target="navbarResponsive"></b-navbar-toggle>
 
