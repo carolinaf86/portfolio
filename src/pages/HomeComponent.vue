@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Caroline</strong>
+              <strong>Caroline Fuller</strong>
             </h1>
             <hr>
           </div>

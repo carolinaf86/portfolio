@@ -47,8 +47,8 @@
             <div class="col">
               <h5><strong>Work Experience:</strong></h5>
               <p>
-                <i>Beta Barcelona, Barcelona, Spain</i>
-                <span class="float-right">Jun 2017 - Present</span><br>
+                <i>Beta Barcelona, Barcelona, Spain</i><br>
+                Jun 2017 - Present<br>
                 <strong>Junior Developer</strong><br>
                 Developing Angular 2+ based frontends for a range of client projects. Some server side API development with Node. Remote
                 work primarily, co-ordinating with developers within Spain and further afield. Project management via Trello and similar
@@ -56,16 +56,16 @@
                 some initial investigations with Vue.
               </p>
               <p>
-                <i>Merit School, Sant Cugat, Spain</i>
-                <span class="float-right">Sep 2016 - Jun 2017</span><br>
+                <i>Merit School, Sant Cugat, Spain</i><br>
+                Sep 2016 - Jun 2017<br>
                 <strong>EFL Teacher</strong><br>
                 Delivering General English and Exam Preparation classes to teens and adults. Preparation for Cambridge First, Advanced and
                 Proficiency exams. Additional duties included planning and preparing resources for classes, assessing student progress by
                 setting tests and exam tasks, and writing assessments and reports.
               </p>
               <p>
-                <i>Bucksmore Education, King Edward’s School, UK</i>
-                <span class="float-right">Jul - Aug 2016</span><br>
+                <i>Bucksmore Education, King Edward’s School, UK</i><br>
+                Jul - Aug 2016<br>
                 <strong>Director of Studies</strong><br>
                 Running the academic programme at a summer camp for international students aged 9-16. Duties included carrying out academic
                 induction for teachers, level testing, organising classes, dealing with level change requests, providing staff training
@@ -73,39 +73,39 @@
                 and at head office to ensure smooth-running of camp.
               </p>
               <p>
-                <i>ESADE Business & Law School, Sant Cugat, Spain</i>
-                <span class="float-right">Jun - Dec 2016</span><br>
+                <i>ESADE Business & Law School, Sant Cugat, Spain</i><br>
+                Jun - Dec 2016<br>
                 <strong>EFL Lecturer</strong><br>
               </p>
               <p>
-                <i>International House Terrassa, Spain</i>
-                <span class="float-right">Oct 2013 - Jun 2016</span><br>
+                <i>International House Terrassa, Spain</i><br>
+                Oct 2013 - Jun 2016<br>
                 <strong>EFL Teacher</strong><br>
               </p>
               <p>
-                <i>University of Northampton Business School, Northampton, UK</i>
-                <span class="float-right">Aug-Sept 2014 & 2015</span><br>
+                <i>University of Northampton Business School, Northampton, UK</i><br>
+                Aug-Sept 2014 & 2015<br>
                 <strong>Associate Lecturer</strong><br>
               </p>
               <p>
-                <i>Thames Valley Summer Schools, Rugby, UK</i>
-                <span class="float-right">Summers 2010-2014</span><br>
+                <i>Thames Valley Summer Schools, Rugby, UK</i><br>
+                Summers 2010-2014<br>
                 <strong>Senior Teacher/EFL Teacher</strong><br>
               </p>
               <p>
-                <i>Open English Academy, Sant Feliu de Guixols, Spain</i>
-                <span class="float-right">Sep 2011 - Jun 2013</span><br>
+                <i>Open English Academy, Sant Feliu de Guixols, Spain</i><br>
+                Sep 2011 - Jun 2013<br>
                 <strong>EFL Teacher</strong><br>
               </p>
               <p>
-                <i>Huihua College of Hebei Normal University, China</i>
-                <span class="float-right">Oct 2010 - Jul 2011</span><br>
+                <i>Huihua College of Hebei Normal University, China</i><br>
+                Oct 2010 - Jul 2011<br>
                 <strong>EFL Teacher</strong><br>
               </p>
               <p>
                 <strong>Other posts of responsibility:</strong><br>
-                <i>Cambridge speaking examiner for PET, KET and YLE exams.</i>
-                <span class="float-right">Feb 2014 – Jul 2017</span>
+                <i>Cambridge speaking examiner for PET, KET and YLE exams.</i><br>
+                Feb 2014 – Jul 2017
               </p>
 
             </div>

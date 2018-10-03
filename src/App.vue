@@ -1,13 +1,11 @@
 <template>
   <div id="portfolio" @:scroll="onScroll">
     <!-- Navigation -->
-    <navbar-component ref="mainNav" :shrink-nav="shrinkNav" />
+    <navbar-component ref="mainNav" :shrink-nav="shrinkNav"/>
 
     <!-- Router outlet -->
     <div>
-      <transition name="fade" mode="out-in" :duration="1000">
-        <router-view/>
-      </transition>
+      <router-view/>
     </div>
 
     <footer-component/>
@@ -28,6 +26,12 @@ export default {
       shrinkNav: false
     }
   },
+  watch: {
+    $route (to, from) {
+      // Always check scroll position on route change and update navbar class accordingly
+      this.onScroll()
+    }
+  },
   mounted: function () {
     this.navbarCollapse()
     window.addEventListener('scroll', this.onScroll)
@@ -40,12 +44,12 @@ export default {
       setTimeout(this.navbarCollapse(), 500)
     },
     navbarCollapse: function () {
-      // Only hide navbar on homepage
-      if (this.$route.path === '/home') {
+      // Don't hide navbar on CV page
+      if (this.$route.path === '/cv') {
+        this.shrinkNav = true
+      } else {
         const offsetY = window.pageYOffset
         this.shrinkNav = offsetY > 100
-      } else {
-        this.shrinkNav = true
       }
     }
   }
