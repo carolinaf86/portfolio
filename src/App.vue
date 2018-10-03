@@ -1,13 +1,11 @@
 <template>
   <div id="portfolio" @:scroll="onScroll">
     <!-- Navigation -->
-    <navbar-component ref="mainNav" :shrink-nav="shrinkNav" />
+    <navbar-component ref="mainNav" :shrink-nav="shrinkNav"/>
 
     <!-- Router outlet -->
     <div>
-      <transition name="fade" mode="out-in" :duration="1000">
-        <router-view/>
-      </transition>
+      <router-view/>
     </div>
 
     <footer-component/>

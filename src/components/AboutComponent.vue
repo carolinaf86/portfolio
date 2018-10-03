@@ -11,7 +11,7 @@
             like with this profile website which I've created using Vue.js and Webpack! If you're curious you can check out the
             <a href="https://github.com/carolinaf86/portfolio" target="_blank" id="source-code-link">source code</a>.
           </p>
-          <a class="btn btn-light btn-xl" href="#" v-scroll-to="'#projects'">Go To Projects</a>
+          <a class="btn btn-light btn-xl" href="#" v-scroll-to="'#skills'">Go To Skills</a>
         </div>
       </div>
     </div>
