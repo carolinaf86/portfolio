@@ -45,6 +45,11 @@
         color: $white;
       }
     }
+    #navbar-cv-btn {
+      border-radius: 0.2rem !important;
+      line-height: 1 !important;
+      padding: 0.2rem;
+    }
     .navbar-nav > li.nav-item > a.nav-link {
       padding: 0.5rem 1rem;
     }
@@ -65,12 +70,28 @@
           color: darken($primary, .1);
         }
       }
+      .navbar-btn > a {
+        color: $gray-200 !important;
+        &:hover {
+          color: $white !important;
+        }
+      }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
         color: $gray-900;
         &:hover {
           color: $primary;
         }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    #navbar-cv-btn {
+      background-color: $white;
+      text-align: left;
+      padding: 0;
+      a {
+        color: $primary;
       }
     }
   }

@@ -25,7 +25,7 @@
             <b-nav-item href="#languages-row" v-scroll-to="{el: '#languages-row', offset: -80}">Languages</b-nav-item>
             <b-nav-item href="#references-row" v-scroll-to="{el: '#references-row', offset: -80}">References</b-nav-item>
           </template>
-          <b-nav-item v-if="$route.path !== '/cv'" to="/cv">CV</b-nav-item>
+          <b-nav-item id="navbar-cv-btn" class="btn btn-sm btn-primary navbar-btn" v-if="$route.path !== '/cv'" to="/cv">CV</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </div>
