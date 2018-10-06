@@ -53,7 +53,6 @@
     "lodash": "^4.17.11",
     "popper.js": "^1.14.4",
     "vue": "^2.5.17",
-    "vue-breakpoints": "^1.1.0",
     "vue-router": "^3.0.1",
     "vue-scroll-reveal": "^1.0.8",
     "vue-scrollto": "^2.13.0"
