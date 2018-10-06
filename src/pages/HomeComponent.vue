@@ -25,10 +25,10 @@
 
 <script>
 
-import AboutComponent from '../components/home/AboutComponent.vue'
-import ProjectsComponent from '../components/home/ProjectsComponent.vue'
-import CvComponent from '../components/home/CvComponent.vue'
-import SkillsComponent from '../components/home/SkillsComponent.vue'
+import AboutComponent from '../components/AboutComponent.vue'
+import ProjectsComponent from '../components/ProjectsComponent.vue'
+import CvComponent from '../components/CvComponent.vue'
+import SkillsComponent from '../components/SkillsComponent.vue'
 
 export default {
   components: {
