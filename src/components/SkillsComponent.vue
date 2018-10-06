@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">A few of my skills...</h2>
+          <h2 class="section-heading">Skills & Experience</h2>
           <hr class="my-4">
         </div>
       </div>
@@ -35,7 +35,7 @@
           <div class="service-box mt-5 mx-auto">
             <i class="fas fa-4x fa-heart text-primary mb-3" v-scroll-reveal.reset="{delay: 800}"></i>
             <h3 class="mb-3">Teamwork</h3>
-            <p class="text-muted mb-0">I'm used to using tools like git, slack and harvest to co-ordinate my work with other team members.</p>
+            <p class="text-muted mb-0">And I'm experienced with using tools like git, slack and harvest to co-ordinate my work with other team members.</p>
           </div>
         </div>
       </div>

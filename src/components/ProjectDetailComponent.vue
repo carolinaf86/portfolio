@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <p v-for="paragraph of text" class="text-faded mb-4">
-            {{ paragraph }}
+          <p v-for="paragraph of text" class="text-faded mb-5">
+            <span v-html="paragraph"></span>
           </p>
         </div>
       </div>

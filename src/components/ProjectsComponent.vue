@@ -71,7 +71,7 @@
                   Project #5
                 </div>
                 <div class="project-name">
-                  Consultancy Agency
+                  Supply Chain Management
                 </div>
               </div>
             </div>
