@@ -86,7 +86,7 @@ export default {
               day-to-day work, I hardly knew anything about it - Angular-CLI handles that for me - so in this project I decided to learn what
               it has been doing for me all this time and configure it myself.`,
               `I also wanted to try creating an app using a front-end framework I hadn't used before so I chose Vue.js. So far so good,
-               it feels a lot lighter than Angular and I like the template syntax a lot, but I'm not totally convinced yet. It's my plan
+               it feels a lot lighter than Angular and I like the template syntax a lot, but I'm not totally convinced yet. My plan is
                to re-code a version of this same site in Angular too (and perhaps React and StencilJS) so I can really compare them.`
             ]
         }

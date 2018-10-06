@@ -6,12 +6,12 @@
           <h2 id="about-heading" class="section-heading text-white" v-scroll-reveal.reset="scrollRevealOpts">"Never stop learning"</h2>
           <hr class="light my-4">
           <p class="text-faded mb-4">
-            The thing I love most about developing is that I'm constantly learning new things.
-            I specialise in Angular 2+, but I love experimenting with other technologies too -
-            like with this profile website which I've created using Vue.js and Webpack! If you're curious you can check out the
-            <a href="https://github.com/carolinaf86/portfolio" target="_blank" id="source-code-link">source code</a>.
+            What I enjoy most about software development is that I am constantly learning new things.
+            I specialise in Angular 2+, but I love experimenting with other languages and frameworks too -
+            like with this profile site which I created using Vue.js and Webpack! If you're curious you can check out the
+            source code.
           </p>
-          <a class="btn btn-light btn-xl" href="#" v-scroll-to="'#skills'">Go To Skills</a>
+          <a class="btn btn-light btn-xl" href="https://github.com/carolinaf86/portfolio" target="_blank">View source code</a>
         </div>
       </div>
     </div>

@@ -11,17 +11,7 @@
           </div>
 
           <div class="row cv-row" id="basic-info">
-            <div class="col-lg-6">
-              <p><strong>Date of birth:</strong> March 1986</p>
-              <p><strong>Email:</strong> caroline@bluerosedev.com</p>
-            </div>
-            <div class="col-lg-6">
-              <p><strong>Nationality:</strong> British</p>
-              <p><strong>Mobile:</strong> +34 610 642 683</p>
-            </div>
-            <div class="col-12">
-              <p><strong>Address:</strong> Barcelona, Spain, 08032</p>
-            </div>
+
           </div>
 
           <div class="row cv-row" id="highlight">
@@ -150,30 +140,6 @@
             <div class="col">
               <h5><strong>Languages:</strong></h5>
               <p>English (native)<br>Spanish (upper-intermediate)</p>
-            </div>
-          </div>
-
-          <div class="row cv-row" id="references-row">
-            <div class="col-12">
-              <h5><strong>References:</strong></h5>
-            </div>
-            <div class="col-lg-6">
-              <p>
-                Brian McGee, Senior Developer<br>
-                Beta Barcelona<br>
-                C/ Ramon Rocafull 14, 3,<br>
-                Barcelona, 08032, Spain<br>
-                brian@bluerosedev.com
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <p>
-                Marc Torruella, Director<br>
-                Beta Barcelona<br>
-                C/ Roselló 343, 1-3<br>
-                Barcelona, 08037, Spain<br>
-                marc@beta.barcelona
-              </p>
             </div>
           </div>
 
