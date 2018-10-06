@@ -21,10 +21,6 @@
   #about-heading {
     font-style: italic;
   }
-
-  #source-code-link {
-    color: #ffffff !important;
-  }
 </style>
 <script>
 export default {
