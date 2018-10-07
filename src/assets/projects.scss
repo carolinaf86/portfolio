@@ -1,6 +1,7 @@
 @import 'theme/_variables';
 
 #project-detail-header {
+
   height: 400px !important;
   min-height: 0 !important;
 
@@ -19,7 +20,32 @@
     }
   }
 
+  &.masthead {
+
+    &.portfolio-1 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../static/img/portfolio/1.jpg');
+    }
+
+    &.portfolio-2 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../static/img/portfolio/2.jpg');
+    }
+
+    &.portfolio-3 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../static/img/portfolio/3.jpg');
+    }
+
+    &.portfolio-4 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../static/img/portfolio/4.jpg');
+    }
+
+    &.portfolio-5 {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../../static/img/portfolio/5.jpg');
+    }
+
+  }
+
 }
+
 
 #project-detail {
   padding-top: 6rem !important;
