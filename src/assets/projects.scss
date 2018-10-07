@@ -4,6 +4,15 @@
   height: 400px !important;
   min-height: 0 !important;
 
+  #carouselChevronLeft, #carouselChevronRight {
+    &:focus {
+      opacity: 0.5 !important;
+    }
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
   @media (min-width: 992px) {
     div.container {
       padding-top: 150px;
