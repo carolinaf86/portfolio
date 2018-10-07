@@ -79,7 +79,7 @@
 import * as axios from 'axios'
 import qs from 'qs'
 
-const url = 'https://formspree.io/xwqlykpx'
+const url = 'https://formspree.io/xjoylyym'
 
 export default {
   data () {
