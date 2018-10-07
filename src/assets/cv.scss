@@ -9,9 +9,13 @@
   }
 
   .cv-row {
-    margin-top: 20px;
+    padding-top: 50px;
     border-bottom: $gray-700 1px solid;
     padding-bottom: 10px;
+  }
+
+  #name-row {
+    padding-top: 50px;
   }
 
   #basic-info {
