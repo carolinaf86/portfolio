@@ -1,0 +1,26 @@
+@import 'projects';
+@import 'cv';
+
+/* Web fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
+
+
+/* Transitions */
+.fade-enter-active {
+  transition: opacity ease-in;
+}
+.fade-leave-active {
+  transition: opacity ease-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0.5;
+}
+
+.fade-in-appear-active {
+  transition: opacity 2s;
+}
+.fade-in-appear {
+  opacity: 0.2;
+}
