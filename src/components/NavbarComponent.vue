@@ -23,7 +23,6 @@
             <b-nav-item href="#experience-row" v-scroll-to="{el: '#experience-row', offset: -80}">Work Experience</b-nav-item>
             <b-nav-item href="#education-row" v-scroll-to="{el: '#education-row', offset: -80}">Education</b-nav-item>
             <b-nav-item href="#languages-row" v-scroll-to="{el: '#languages-row', offset: -80}">Languages</b-nav-item>
-            <b-nav-item href="#references-row" v-scroll-to="{el: '#references-row', offset: -80}">References</b-nav-item>
           </template>
           <b-nav-item id="navbar-cv-btn" class="btn btn-sm btn-primary navbar-btn" v-if="$route.path !== '/cv'" to="/cv">CV</b-nav-item>
         </b-navbar-nav>
