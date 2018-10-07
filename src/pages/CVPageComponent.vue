@@ -10,10 +10,6 @@
             </div>
           </div>
 
-          <div class="row cv-row" id="basic-info">
-
-          </div>
-
           <div class="row cv-row" id="highlight">
             <div class="col-lg-10 offset-lg-1">
               <p>
