@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      <template v-if="displayForm">
+      <template v-if="status === 'ready'">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <p class="mb-5">If you'd like to get in touch with me, please complete the contact form below.</p>
@@ -16,6 +16,11 @@
         </div>
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
+
+            <b-alert variant="danger" :show="submissionError">
+              Oops, there seems to have been a problem. Please try again.
+            </b-alert>
+
             <b-form id="contactForm" ref="contactForm" @submit="onSubmit" novalidate>
 
               <b-form-group id="nameInputGroup" label="Name*" for="nameInput">
@@ -30,8 +35,22 @@
                 <b-form-textarea id="messageInput" v-model="contact.message" placeholder="Enter message (optional)" :rows="3" :max-rows="6"
                                  name="message"/>
               </b-form-group>
-              <button type="submit" class="btn btn-primary btn-sm">Send</button>
+
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </div>
+
             </b-form>
+          </div>
+        </div>
+      </template>
+
+      <template v-else-if="status === 'loading'">
+        <div class="row" id="processingFormRow">
+          <div class="col-lg-10 offset-lg-1 text-center">
+            <i class="fas fa-4x fa-spinner fa-spin"></i>
           </div>
         </div>
       </template>
@@ -50,7 +69,7 @@
 </template>
 
 <style>
-  #submittedRow {
+  #submittedRow, #processingFormRow {
     min-height: 400px;
   }
 </style>
@@ -60,23 +79,25 @@
 import * as axios from 'axios'
 import qs from 'qs'
 
-const url = 'https://formspree.io/caroline@bluerosedev.com'
+const url = 'https://formspree.io/xwqlykpx'
 
 export default {
-  data() {
+  data () {
     return {
       contact: {
         name: '',
         email: '',
         message: ''
       },
-      errors: [],
-      displayForm: true
+      submissionError: false,
+      status: 'ready'
     }
   },
   methods: {
-    onSubmit(evt) {
+    onSubmit (evt) {
       evt.preventDefault()
+
+      this.submissionError = false
 
       const form = this.$refs.contactForm
       form.validated = true
@@ -85,16 +106,23 @@ export default {
       // Send data if valid
 
       if (form.reportValidity()) {
+        this.status = 'loading'
+
         const options = {
           method: 'POST',
-          headers: {'content-type': 'application/x-www-form-urlencoded'},
+          headers: {'content-type': 'application/x-www-form-urlencoded', 'accept': 'application/json'},
           data: qs.stringify(this.contact),
           url
         }
-        console.log('Sending data', options)
-        // axios(options)
 
-        this.displayForm = false
+        axios(options)
+          .then(response => {
+            this.status = 'complete'
+          })
+          .catch(error => {
+            this.submissionError = true
+            this.status = 'ready'
+          })
       }
     }
   }
