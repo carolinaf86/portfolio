@@ -31,13 +31,15 @@ export default {
   computed: {
     nextUrl: function () {
       const { id } = this.$route.params
-      if (+id > 5) return '/home'
-      return `/projects/${+this.$route.params.id + 1}`
+      let next = +id + 1
+      if (next > 6) next = 1
+      return `/projects/${next}`
     },
     previousUrl: function () {
       const { id } = this.$route.params
-      if (+id === 1) return '/home'
-      return `/projects/${+this.$route.params.id - 1}`
+      let prev = +id - 1
+      if (prev < 1) prev = 6
+      return `/projects/${prev}`
     }
   }
 }
