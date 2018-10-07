@@ -46,7 +46,6 @@
       }
     }
     #navbar-cv-btn {
-      border-radius: 0.2rem !important;
       line-height: 1 !important;
       padding: 0.2rem;
     }
@@ -86,10 +85,11 @@
     }
   }
   @media (max-width: 991px) {
-    #navbar-cv-btn {
-      background-color: $white;
+    #navbar-cv-btn, #navbar-cv-btn:active {
+      background-color: $white !important;
       text-align: left;
       padding: 0;
+      box-shadow: none !important;
       a {
         color: $primary;
       }
