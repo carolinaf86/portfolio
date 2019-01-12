@@ -16,17 +16,17 @@ export default {
     ]
   },
   2: {
-    h1: 'Time Management',
-    h3: 'Angular 2, Loopback 2, MySql',
+    h1: '3D Printing',
+    h3: 'Angular 6, NestJS, GraphQL,  PostgreSQL',
     text: [
-      `An app for managing projects including functionality such as creating tasks, assigning them to available workers, completing them and 
-      communicating changes and delays to project managers via email.`,
-      `On this project I primarily worked on the UI, using <a href="https://angular.io/" target="_blank">Angular 2</a>. This included a custom-built 
-      Gantt Chart component, used for displaying staff availability as well as project details. I also created a custom calendar component 
-      to be used for scheduling staff holidays.`,
-      `On this project the design is based on the <a href="https://material.angular.io/" target="_blank">Angular Material</a> library, which 
-      gave me experience in a different UI style to <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, which is more commonly 
-      used on the projects I have worked on.`
+      `A marketing website built on top of a custom CMS for a 3D Printing company.`,
+      `This project has been developed from a base CMS used across several different projects built using <a href="https://nestjs.com/" target="_blank">NestJS</a> 
+       and <a href="https://graphql.org/" target="_blank">GraphQL</a> with a <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> database. 
+       The frontend and admin sections were built using <a href="https://angular.io/" target="_blank">Angular 6</a>.`,
+      `I primarily worked on the <a href="https://addit-ion.com/" target="_blank">frontend</a> of this site, which is currently still in development.
+       A new challenge for me working on this project was learning <a href="https://graphql.org/" target="_blank">GraphQL</a> as I was also involved
+       in adding new features to the CMS. Another learning experience was adding parallax to the landing page images, especially
+       given that all content is editable from the admin section.`
     ]
   },
   3: {

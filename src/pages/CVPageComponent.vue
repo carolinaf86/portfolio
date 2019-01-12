@@ -24,7 +24,8 @@
             <div class="col">
               <h5><strong>Skills:</strong></h5>
               <p><strong>Languages:</strong> Javascript, Typescript, SQL, CSS, SASS, HTML5</p>
-              <p><strong>Frameworks:</strong> Angular 2+, StencilJS, Loopback, NestJS, Bootstrap, MySQL</p>
+              <p><strong>Frameworks:</strong> Angular 2+, StencilJS, Loopback, NestJS, Bootstrap, GraphQL</p>
+              <p><strong>Databases:</strong> MySQL, PostgreSQL</p>
               <p><strong>Some experience with:</strong> JQuery, Webpack, NGRX, PHP, Yii2, Vue, Firebase, Java</p>
             </div>
           </div>
@@ -33,60 +34,63 @@
             <div class="col">
               <h5><strong>Work Experience:</strong></h5>
               <p>
+                <strong>Junior Developer</strong><br>
                 <i>Beta Barcelona, Barcelona, Spain</i><br>
                 Jun 2017 - Present<br>
-                <strong>Junior Developer</strong><br>
+                <br>
                 Developing Angular 2+ based frontends for a range of client projects. Some server side API development with Node. Remote
                 work primarily, co-ordinating with developers within Spain and further afield. Project management via Trello and similar
                 platforms, experienced with and comfortable working as part of a distributed team. More recently working with StencilJS and
                 some initial investigations with Vue.
               </p>
               <p>
+                <strong>EFL Teacher</strong><br>
                 <i>Merit School, Sant Cugat, Spain</i><br>
                 Sep 2016 - Jun 2017<br>
-                <strong>EFL Teacher</strong><br>
+                <br>
                 Delivering General English and Exam Preparation classes to teens and adults. Preparation for Cambridge First, Advanced and
                 Proficiency exams. Additional duties included planning and preparing resources for classes, assessing student progress by
                 setting tests and exam tasks, and writing assessments and reports.
               </p>
               <p>
+                <strong>Director of Studies</strong><br>
                 <i>Bucksmore Education, King Edward’s School, UK</i><br>
                 Jul - Aug 2016<br>
-                <strong>Director of Studies</strong><br>
+                <br>
                 Running the academic programme at a summer camp for international students aged 9-16. Duties included carrying out academic
                 induction for teachers, level testing, organising classes, dealing with level change requests, providing staff training
                 workshops, scheduling and running assessments, organising writing of reports, working closely with management teams on-site
                 and at head office to ensure smooth-running of camp.
               </p>
               <p>
+                <strong>EFL Lecturer</strong><br>
                 <i>ESADE Business & Law School, Sant Cugat, Spain</i><br>
                 Jun - Dec 2016<br>
-                <strong>EFL Lecturer</strong><br>
               </p>
               <p>
+                <strong>EFL Teacher</strong><br>
                 <i>International House Terrassa, Spain</i><br>
                 Oct 2013 - Jun 2016<br>
-                <strong>EFL Teacher</strong><br>
               </p>
               <p>
+                <strong>Associate Lecturer</strong><br>
                 <i>University of Northampton Business School, Northampton, UK</i><br>
                 Aug-Sept 2014 & 2015<br>
-                <strong>Associate Lecturer</strong><br>
               </p>
               <p>
+                <strong>Senior Teacher/EFL Teacher</strong><br>
                 <i>Thames Valley Summer Schools, Rugby, UK</i><br>
                 Summers 2010-2014<br>
-                <strong>Senior Teacher/EFL Teacher</strong><br>
               </p>
               <p>
+                <strong>EFL Teacher</strong><br>
                 <i>Open English Academy, Sant Feliu de Guixols, Spain</i><br>
                 Sep 2011 - Jun 2013<br>
-                <strong>EFL Teacher</strong><br>
               </p>
               <p>
+                <strong>EFL Teacher</strong><br>
                 <i>Huihua College of Hebei Normal University, China</i><br>
                 Oct 2010 - Jul 2011<br>
-                <strong>EFL Teacher</strong><br>
               </p>
               <p>
                 <strong>Other posts of responsibility:</strong><br>
