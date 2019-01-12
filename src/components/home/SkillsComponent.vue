@@ -14,14 +14,14 @@
           <div class="service-box mt-5 mx-auto">
             <i class="fab fa-4x fa-angular text-primary mb-3" v-scroll-reveal.reset="{delay: 200}"></i>
             <h3 class="mb-3">Angular 2+</h3>
-            <p class="text-muted mb-0">Most of my professional experience has been in creating dynamic frontends using Angular 2-6.</p>
+            <p class="text-muted mb-0">Most of my professional experience has been in creating dynamic frontends using <a href="https://angular.io/" target="_blank">Angular 2-7</a>.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
             <i class="fab fa-4x fa-js-square text-primary mb-3" v-scroll-reveal.reset="{delay: 400}"></i>
             <h3 class="mb-3">Javascript</h3>
-            <p class="text-muted mb-0">But I'm also comfortable using Javascript independent of framework (and on the backend with Loopback and NestJs too!).</p>
+            <p class="text-muted mb-0">But I'm also comfortable using Javascript independent of framework (and on the backend with <a href="https://loopback.io/doc/index.html" target="_blank">Loopback</a> and <a href="https://nestjs.com/" target="_blank">NestJS</a> too!).</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
