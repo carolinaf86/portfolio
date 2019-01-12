@@ -24,7 +24,7 @@ export default {
        and <a href="https://graphql.org/" target="_blank">GraphQL</a> with a <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> database. 
        The frontend and admin sections were built using <a href="https://angular.io/" target="_blank">Angular 6</a>.`,
       `I primarily worked on the <a href="https://addit-ion.com/" target="_blank">frontend</a> of this site, which is currently still in development.
-       A new challenge for me on working on this project was learning <a href="https://graphql.org/" target="_blank">GraphQL</a> as I was also involved
+       A new challenge for me working on this project was learning <a href="https://graphql.org/" target="_blank">GraphQL</a> as I was also involved
        in adding new features to the CMS. Another learning experience was adding parallax to the landing page images, especially
        given that all content is editable from the admin section.`
     ]
