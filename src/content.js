@@ -17,11 +17,11 @@ export default {
   },
   2: {
     h1: '3D Printing',
-    h3: 'Angular 6, NestJS, GraphQL,  Postgres',
+    h3: 'Angular 6, NestJS, GraphQL,  PostgreSQL',
     text: [
       `A marketing website built on top of a custom CMS for a 3D Printing company.`,
       `This project has been developed from a base CMS used across several different projects built using <a href="https://nestjs.com/" target="_blank">NestJS</a> 
-       and <a href="https://graphql.org/" target="_blank">GraphQL</a> with a <a href="https://www.postgresql.org/" target="_blank">Postgres</a> database. 
+       and <a href="https://graphql.org/" target="_blank">GraphQL</a> with a <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> database. 
        The frontend and admin sections were built using <a href="https://angular.io/" target="_blank">Angular 6</a>.`,
       `I primarily worked on the <a href="https://addit-ion.com/" target="_blank">frontend</a> of this site, which is currently still in development.
        A new challenge for me on working on this project was learning <a href="https://graphql.org/" target="_blank">GraphQL</a> as I was also involved

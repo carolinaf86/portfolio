@@ -25,7 +25,7 @@
               <h5><strong>Skills:</strong></h5>
               <p><strong>Languages:</strong> Javascript, Typescript, SQL, CSS, SASS, HTML5</p>
               <p><strong>Frameworks:</strong> Angular 2+, StencilJS, Loopback, NestJS, Bootstrap, GraphQL</p>
-              <p><strong>Databases:</strong> MySQL, PostgresQL</p>
+              <p><strong>Databases:</strong> MySQL, PostgreSQL</p>
               <p><strong>Some experience with:</strong> JQuery, Webpack, NGRX, PHP, Yii2, Vue, Firebase, Java</p>
             </div>
           </div>
